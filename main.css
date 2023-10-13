@@ -1,0 +1,33 @@
+.container {
+  border: black 2px solid;
+  width: 350px;
+  height: 500px;
+  align-content: stretch;
+  flex-grow: 1;
+}
+button {
+  text-align: center !important;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: black 2px solid;
+  color: grey;
+  font-size: 100%;
+  width: 75px;
+  height: 100px;
+}
+
+.row {
+  background: black;
+  color: aliceblue;
+  width: 350px;
+  height: 80px;
+  justify-content: end;
+  align-items: end;
+}
+.btn-primary {
+  justify-content: space-between;
+  border: 3px black solid;
+}
+.btn-warning {
+  border: 3px black solid;
+}
